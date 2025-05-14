@@ -4,7 +4,7 @@ export default function Aside() {
   const [sidebarActive, setSidebarActive] = useState(false);
   return (
     <aside
-      className={`mb-4 rounded-[20px] bg-[#1e1e1f] border border-[#383838] p-4 box-shadow-[-4px_8px_24px] sm:w-[520px] sm:me-auto sm:p-7 sm:mx-auto sm:mb-7 md:w-[700px] lg:w-[950px] shadow-[#00000040] xl:shadow-[0_24px_80px] 
+      className={`mb-4 rounded-[20px] bg-[#1e1e1f] overflow-hidden border border-[#383838] p-4 box-shadow-[-4px_8px_24px] sm:w-[520px] sm:me-auto sm:p-7 sm:mx-auto sm:mb-7 md:w-[700px] lg:w-[950px] shadow-[#00000040] xl:shadow-[0_24px_80px] 
         xl:w-[350px] xl:sticky xl:top-16 xl:self-start xl:h-[calc(100vh-14rem)] xl:overflow-y-auto xl:mb-0 xl:pt-16 z-10 ${
         sidebarActive
           ? "h-[455px] sm:h-[584px] ease-in-out duration-1000"
