@@ -230,7 +230,7 @@ export default function Aside() {
               </p>
 
               <address className="text-[#fafafa] text-base">
-                Sacramento, California, USA
+                Maracay, Venezuela
               </address>
             </div>
           </li>
