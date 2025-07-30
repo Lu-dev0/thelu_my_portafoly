@@ -6,10 +6,10 @@ export default function Aside() {
     <aside
       className={`mb-4 rounded-[20px] bg-[#1e1e1f] border border-[#383838] p-4 box-shadow-[-4px_8px_24px] sm:w-[520px] sm:me-auto sm:p-7 sm:mx-auto sm:mb-7 md:w-[700px] lg:w-[950px] shadow-[#00000040] xl:shadow-[0_24px_80px] 
         xl:w-[350px] xl:sticky xl:top-16 xl:self-start xl:h-[calc(100vh-14rem)] xl:overflow-y-auto xl:mb-0 xl:pt-16 z-10 ${
-        sidebarActive
-          ? "h-[400px] sm:h-[500px] ease-in-out duration-1000"
-          : "h-[112px] sm:h-[180px] ease-in-out duration-1000"
-      }`}
+          sidebarActive
+            ? "h-[400px] sm:h-[500px] ease-in-out duration-1000"
+            : "h-[112px] sm:h-[180px] ease-in-out duration-1000"
+        }`}
     >
       <div className="relative flex justify-start items-center gap-4 sm:gap-[25px] xl:flex-col">
         <figure className="rounded-[20px] bg-gradient-to-br from-[hsl(240,1%,25%)] from-3% to-[hsl(0,0%,19%)] to-97% sm:rounded-[30px] overflow-auto ">
@@ -152,7 +152,6 @@ export default function Aside() {
             </div>
           </li>
 
-       
           <li className="min-w-full flex items-center gap-4">
             <div className="relative bg-box-linear w-[30px] h-[30px] rounded-lg flex justify-center items-center text-[16px] z-10 shadow-[-4px_8px_24px_rgba(0,0,0,0.25)]">
               <svg
@@ -191,9 +190,7 @@ export default function Aside() {
                 Location
               </p>
 
-              <address className="text-[#fafafa] text-base">
-                Venezuela
-              </address>
+              <address className="text-[#fafafa] text-base">Venezuela</address>
             </div>
           </li>
         </ul>
@@ -202,7 +199,11 @@ export default function Aside() {
 
         <ul className="flex justify-start items-center gap-4 pb-1 pl-2 xl:justify-center xl:mt-32">
           <li className="social-item">
-            <a href="#" className="social-link">
+            <a
+              href="https://www.linkedin.com/in/luisangel-tapia/"
+              target="_blank"
+              className="social-link"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -238,7 +239,11 @@ export default function Aside() {
           </li>
 
           <li className="social-item">
-            <a href="#" className="social-link">
+            <a
+              href="https://github.com/lu-dev0"
+              target="_blank"
+              className="social-link"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -266,12 +271,6 @@ export default function Aside() {
                   d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"
                 />
               </svg>
-            </a>
-          </li>
-
-          <li className="social-item">
-            <a href="#" className="social-link">
-              {/* <ion-icon name="logo-instagram"></ion-icon> */}
             </a>
           </li>
         </ul>
