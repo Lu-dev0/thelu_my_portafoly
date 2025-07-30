@@ -14,7 +14,7 @@ export default function Aside() {
       <div className="relative flex justify-start items-center gap-4 sm:gap-[25px] xl:flex-col">
         <figure className="rounded-[20px] bg-gradient-to-br from-[hsl(240,1%,25%)] from-3% to-[hsl(0,0%,19%)] to-97% sm:rounded-[30px] overflow-auto ">
           <img
-            src="/avatar.png"
+            src="/avatar.heic"
             className="sm:w-[120px] xl:w-[150px]"
             alt="avatar"
             width="80"
