@@ -25,7 +25,7 @@ export default function About() {
   ];
   return (
     <article
-      className="mb-4 max-sm:mb-[20px] sm:w-[520px] md:w-[700px] lg:w-[950px] m-auto  bg-[#1e1e1f] rounded-[20px] border border-[#383838] p-[15px] shadow-[-4px_8px_24px_#00000040] z-10 ease-in-out duration-1000 overflow-hidden xl:w-auto xl:min-h-[calc(100vh-14rem)]"
+      className=" sm:w-[520px] md:w-[700px] lg:w-[950px] m-auto  bg-[#1e1e1f] rounded-[20px] border border-[#383838] p-[15px] shadow-[-4px_8px_24px_#00000040] z-10 ease-in-out duration-1000 overflow-hidden xl:w-auto xl:min-h-[calc(100vh-14rem)]"
       
     >
       <header>

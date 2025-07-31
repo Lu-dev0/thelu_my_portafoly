@@ -1,8 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import SectionMain from "@/components/SectionMain"
+import SectionMain from "@/src/components/SectionMain"
 ---
 
 <Layout>
-<SectionMain client:only="react"/>
+<SectionMain client:visible/>
+
 </Layout>

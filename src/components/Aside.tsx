@@ -6,10 +6,10 @@ export default function Aside() {
     <aside
       className={`mb-4 rounded-[20px] bg-[#1e1e1f] overflow-hidden border border-[#383838] p-4 box-shadow-[-4px_8px_24px] sm:w-[520px] sm:me-auto sm:p-7 sm:mx-auto sm:mb-7 md:w-[700px] lg:w-[950px] shadow-[#00000040] xl:shadow-[0_24px_80px] 
         xl:w-[350px] xl:sticky xl:top-16 xl:self-start xl:h-[calc(100vh-14rem)] xl:overflow-y-auto xl:mb-0 xl:pt-16 z-10 ${
-        sidebarActive
-          ? "h-[455px] sm:h-[584px] ease-in-out duration-1000"
-          : "h-[112px] sm:h-[180px] ease-in-out duration-1000"
-      }`}
+          sidebarActive
+            ? "h-[400px] sm:h-[500px] ease-in-out duration-1000"
+            : "h-[112px] sm:h-[180px] ease-in-out duration-1000"
+        }`}
     >
       <div className="relative flex justify-start items-center gap-4 sm:gap-[25px] xl:flex-col">
         <figure className="rounded-full bg-gradient-to-br from-[hsl(240,1%,25%)] from-3% to-[hsl(0,0%,19%)] to-97% sm:rounded-full overflow-auto ">
@@ -36,9 +36,9 @@ export default function Aside() {
         </div>
 
         <button
-          className={`absolute top-[-16px] right-[-16px] rounded-bl-[15px] p-[10px] 
+          className={`absolute top-[-16px] right-[-16px] rounded-bl-[15px] rounded-tr-[20px] p-[10px] 
           text-white shadow-[0_16px_30px_rgba(0,0,0,0.25)] transition-all 
-          ease-in-out duration-[1500ms] z-20 sm:top-[-30px] sm:right-[-30px] xl:hidden
+          ease-in-out duration-[1500ms] z-20 sm:top-[-28px] sm:right-[-28px] xl:hidden
           ${
             sidebarActive
               ? "bg-[radial-gradient(100%_300%_at_0%_-50%,#db0414_10%,#c60842_50%,#7c1773_90%)]"
@@ -137,8 +137,8 @@ export default function Aside() {
                 </defs>
                 <path
                   fill="url(#customRadial)"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263"
                 />
               </svg>
@@ -150,45 +150,6 @@ export default function Aside() {
               <a href="tel:+584243540689" className="text-[#fafafa] text-base ">
                 +58 424 354 0689
               </a>
-            </div>
-          </li>
-
-          <li className="min-w-full flex items-center gap-4">
-            <div className="relative bg-box-linear w-[30px] h-[30px] rounded-lg flex justify-center items-center text-[16px] z-10 shadow-[-4px_8px_24px_rgba(0,0,0,0.25)]">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <defs>
-                  <radialGradient
-                    id="customRadial"
-                    cx="50%"
-                    cy="50%"
-                    r="50%"
-                    fx="50%"
-                    fy="50%"
-                  >
-                    <stop offset="10%" stopColor="#db0414" stopOpacity="1" />
-                    <stop offset="50%" stopColor="#c60842" stopOpacity="1" />
-                    <stop offset="90%" stopColor="#7c1773" stopOpacity="1" />
-                  </radialGradient>
-                </defs>
-                <path
-                  fill="url(#customRadial)"
-                  d="M21 20V6c0-1.103-.897-2-2-2h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2zM9 18H7v-2h2v2zm0-4H7v-2h2v2zm4 4h-2v-2h2v2zm0-4h-2v-2h2v2zm4 4h-2v-2h2v2zm0-4h-2v-2h2v2zm2-5H5V7h14v2z"
-                />
-              </svg>
-            </div>
-
-            <div className="max-w-[calc(100%-46px)]">
-              <p className="text-[#d6d6d6b3] font-semibold text-sm ">
-                Birthday
-              </p>
-
-              {/* <time datetime="1982-06-23">June 23, 1982</time> */}
-              <span className="text-[#fafafa] text-base">March 30, 2003</span>
             </div>
           </li>
 
@@ -239,7 +200,7 @@ export default function Aside() {
 
         <div className="w-full h-[2px] bg-custom-radial  my-4 sm:my-8 xl:hidden xl:opacity-0"></div>
 
-        <ul className="flex justify-start items-center gap-4 pb-1 pl-2 xl:justify-center">
+        <ul className="flex justify-start items-center gap-4 pb-1 pl-2 xl:justify-center xl:mt-32">
           <li className="social-item">
             <a href="https://www.linkedin.com/in/luisangel-tapia" target="_blank" className="social-link">
               <svg
@@ -300,17 +261,11 @@ export default function Aside() {
                 </defs>
                 <path
                   fill="url(#customRadial)"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"
                 />
               </svg>
-            </a>
-          </li>
-
-          <li className="social-item">
-            <a href="#" className="social-link">
-              {/* <ion-icon name="logo-instagram"></ion-icon> */}
             </a>
           </li>
         </ul>

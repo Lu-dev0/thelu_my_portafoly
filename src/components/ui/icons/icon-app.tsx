@@ -10,8 +10,8 @@ export default function IconApp() {
     >
       <path
         opacity="0.15"
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M3 1C1.89543 1 1 1.89543 1 3V37C1 38.1046 1.89543 39 3 39H18.9C20.0046 39 20.9 38.1046 20.9 37V3C20.9 1.89543 20.0046 1 18.9 1H15.6631V2H6.23676V1H3Z"
         fill="#7c1773"
       />
@@ -28,8 +28,8 @@ export default function IconApp() {
           y2="17.5237"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#db0414" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#db0414" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -39,8 +39,8 @@ export default function IconApp() {
           y2="17.6727"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#db0414" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#db0414" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
       </defs>
     </svg>

@@ -10,8 +10,8 @@ export default function IconDev() {
     >
       <path
         opacity="0.15"
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M3 1C1.89543 1 1 1.89543 1 3V28C1 29.1046 1.89543 30 3 30H37C38.1046 30 39 29.1046 39 28V3C39 1.89543 38.1046 1 37 1H3ZM36 9H4V28H36V9Z"
         fill="url(#paint0_linear)"
       />
@@ -60,8 +60,8 @@ export default function IconDev() {
           y2="35.0542"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#db0414" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#db0414" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -71,8 +71,8 @@ export default function IconDev() {
           y2="36.511"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#db0414" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#db0414" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
         <linearGradient
           id="paint2_linear"
@@ -82,8 +82,8 @@ export default function IconDev() {
           y2="6.9288"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#db0414" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#db0414" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
         <linearGradient
           id="paint3_linear"
@@ -93,8 +93,8 @@ export default function IconDev() {
           y2="5.71887"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#db0414" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#db0414" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
         <linearGradient
           id="paint4_linear"
@@ -104,8 +104,8 @@ export default function IconDev() {
           y2="5.71887"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#db0414" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#db0414" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
         <linearGradient
           id="paint5_linear"
@@ -115,8 +115,8 @@ export default function IconDev() {
           y2="5.71884"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#db0414" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#db0414" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
         <linearGradient
           id="paint6_linear"
@@ -126,8 +126,8 @@ export default function IconDev() {
           y2="19.281"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#db0414" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#db0414" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
         <linearGradient
           id="paint7_linear"
@@ -137,8 +137,8 @@ export default function IconDev() {
           y2="16.3959"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#FFDB6E" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#FFDB6E" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
         <linearGradient
           id="paint8_linear"
@@ -148,8 +148,8 @@ export default function IconDev() {
           y2="16.3959"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#FFDB6E" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#FFDB6E" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
         <linearGradient
           id="paint9_linear"
@@ -159,8 +159,8 @@ export default function IconDev() {
           y2="35.2721"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.259336" stop-color="#FFDB6E" />
-          <stop offset="1" stop-color="#c60842" />
+          <stop offset="0.259336" stopColor="#FFDB6E" />
+          <stop offset="1" stopColor="#c60842" />
         </linearGradient>
       </defs>
     </svg>
