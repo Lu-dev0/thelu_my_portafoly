@@ -1,5 +1,5 @@
 ---
-import Aside from "@/src/components/Aside";
+import Aside from "../components/Aside";
 ---
 
 <!doctype html>
@@ -15,7 +15,7 @@ import Aside from "@/src/components/Aside";
     <main
       class="min-w-[259px] m-[15px_12px]  sm:mt-[60px] sm:mb-[100px] xl:max-w-[1400px] xl:mx-auto xl:flex xl:gap-x-8"
     >
-      <Aside client:only="react"  />
+      <Aside client:load="react"  />
 	  
       <slot />
     </main>
