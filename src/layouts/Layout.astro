@@ -9,13 +9,13 @@ import Aside from "@/src/components/Aside";
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="generator" content={Astro.generator} />
-    <title>Portafolio - Lú</title> 
+    <title>Lú - Portafolio</title> 
   </head>
   <body class="bg-[#121212]">
     <main
       class="min-w-[259px] m-[15px_12px]  sm:mt-[60px] sm:mb-[100px] xl:max-w-[1400px] xl:mx-auto xl:flex xl:gap-x-8"
     >
-      <Aside client:load  />
+      <Aside client:only="react"  />
 	  
       <slot />
     </main>

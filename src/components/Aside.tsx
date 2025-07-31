@@ -4,7 +4,7 @@ export default function Aside() {
   const [sidebarActive, setSidebarActive] = useState(false);
   return (
     <aside
-      className={`mb-4 rounded-[20px] bg-[#1e1e1f] border border-[#383838] p-4 box-shadow-[-4px_8px_24px] sm:w-[520px] sm:me-auto sm:p-7 sm:mx-auto sm:mb-7 md:w-[700px] lg:w-[950px] shadow-[#00000040] xl:shadow-[0_24px_80px] 
+      className={`mb-4 rounded-[20px] bg-[#1e1e1f] overflow-hidden border border-[#383838] p-4 box-shadow-[-4px_8px_24px] sm:w-[520px] sm:me-auto sm:p-7 sm:mx-auto sm:mb-7 md:w-[700px] lg:w-[950px] shadow-[#00000040] xl:shadow-[0_24px_80px] 
         xl:w-[350px] xl:sticky xl:top-16 xl:self-start xl:h-[calc(100vh-14rem)] xl:overflow-y-auto xl:mb-0 xl:pt-16 z-10 ${
           sidebarActive
             ? "h-[400px] sm:h-[500px] ease-in-out duration-1000"
@@ -12,12 +12,13 @@ export default function Aside() {
         }`}
     >
       <div className="relative flex justify-start items-center gap-4 sm:gap-[25px] xl:flex-col">
-        <figure className="rounded-[20px] bg-gradient-to-br from-[hsl(240,1%,25%)] from-3% to-[hsl(0,0%,19%)] to-97% sm:rounded-[30px] overflow-auto ">
+        <figure className="rounded-full bg-gradient-to-br from-[hsl(240,1%,25%)] from-3% to-[hsl(0,0%,19%)] to-97% sm:rounded-full overflow-auto ">
           <img
-            src="/avatar.heic"
-            className="sm:w-[120px] xl:w-[150px]"
+            src="image/avatar.jpg"
+            className="sm:w-[200px] xl:w-[200px] rounded-full h-[200px] xl:h-[200px] object-cover"
             alt="avatar"
-            width="80"
+            width="200"
+            height="200"
           />
         </figure>
 
@@ -190,7 +191,9 @@ export default function Aside() {
                 Location
               </p>
 
-              <address className="text-[#fafafa] text-base">Venezuela</address>
+              <address className="text-[#fafafa] text-base">
+                Maracay, Venezuela
+              </address>
             </div>
           </li>
         </ul>
@@ -199,11 +202,7 @@ export default function Aside() {
 
         <ul className="flex justify-start items-center gap-4 pb-1 pl-2 xl:justify-center xl:mt-32">
           <li className="social-item">
-            <a
-              href="https://www.linkedin.com/in/luisangel-tapia/"
-              target="_blank"
-              className="social-link"
-            >
+            <a href="https://www.linkedin.com/in/luisangel-tapia" target="_blank" className="social-link">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -239,11 +238,7 @@ export default function Aside() {
           </li>
 
           <li className="social-item">
-            <a
-              href="https://github.com/lu-dev0"
-              target="_blank"
-              className="social-link"
-            >
+            <a href="https://github.com/Lu-dev0" target="_blank" className="social-link">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
